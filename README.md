@@ -1,6 +1,7 @@
 # Awesome Voice Typing
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 A curated list of open-source speech-to-text tools for voice typing and dictation across desktop, mobile, and CLI.
