@@ -1,54 +1,66 @@
 # Contributing
 
-Thanks for helping grow Awesome Voice Typing.
+Thanks for helping maintain Awesome Voice Typing.
 
-## Inclusion Criteria
+The goal is to keep the list useful for engineers comparing open-source dictation tools quickly.
 
-To be listed, a project must meet **all** of the following:
+## What Belongs Here
+
+To be listed, a project should meet all of the following:
 
 1. **Open source** - Source code is publicly available under a recognized open-source license.
-2. **Voice-to-text focused** - The primary purpose is voice typing or dictation (speaking into a microphone to produce text). Transcription libraries, APIs, and speech engines themselves are out of scope.
-3. **≥ 50 GitHub stars** - A minimum signal of community interest.
-4. **Active** - At least one commit in the last 12 months.
+2. **Voice typing or dictation focused** - The primary workflow is speaking and getting text into an active app, text field, keyboard, clipboard, or terminal workflow.
+3. **Usable as a product** - Apps, keyboards, menu bar tools, and CLI tools belong here. Libraries, APIs, and raw speech engines do not.
+4. **Still available** - The repository is public and not deleted, abandoned beyond practical use, or archived without a working path for users.
+
+## What Does Not Belong Here
+
+- Closed-source products
+- Speech-to-text APIs, SDKs, model repos, or libraries without a usable dictation workflow
+- Meeting bots, note takers, or general transcription tools that do not support voice typing
+- Repositories that are only marketing pages, link farms, or download stubs without source code
 
 ## Adding an Entry
 
 1. Fork the repository and create a branch.
-2. Add your entry to `README.md` in **alphabetical order** (case-insensitive) using this format:
+2. Add the project to the `Directory` table in `README.md` in **alphabetical order** (case-insensitive) using this format:
 
    ```
-   | [Name](https://github.com/user/repo) | ![](https://img.shields.io/github/stars/user/repo) | Description | Platforms | Local/Hybrid | Engine | Languages | Notes |
+   | [Name](https://github.com/user/repo) | Platforms | Mode | Engine | Summary |
    ```
 
-   **Columns:**
+3. Use these column rules:
 
    | Column | Format | Example |
-   |--------|--------|---------|
+   | --- | --- | --- |
    | Name | Linked project name, title case | `[VoiceInk](https://github.com/Beingpax/VoiceInk)` |
-   | Stars | Shields.io badge with `` | `![](https://img.shields.io/github/stars/user/repo)` |
-   | Description | One sentence, no trailing period | `Native macOS dictation with per-app Power Mode settings` |
    | Platforms | Comma-separated | `Linux, macOS, Windows` |
-   | Transcription | `Local` or `Hybrid` | `Local` |
+   | Mode | `Local` or `Hybrid` | `Local` |
    | Engine | Speech-to-text engine(s) used | `Whisper.cpp, Faster Whisper` |
-   | Languages | `Multilingual` if applicable | `Multilingual` |
-   | Notes | Brief noteworthy details, if any | `Also available as Chrome extension` |
+   | Summary | One concise sentence ending with a period | `Native macOS dictation with per-app tuning and custom dictionary support.` |
 
-3. Add the project name to each relevant platform line in the **By Platform** section, in alphabetical order.
-4. Place the table entry in **alphabetical order** (case-insensitive).
-5. Open a pull request titled **Add [Project Name]**.
+4. Add the project name to each relevant platform line in the `Browse by platform` block, also in alphabetical order.
+5. Update the `Platform Snapshot` counts if the change affects Linux, macOS, Windows, Android, or iOS totals.
+6. Open a pull request titled `Add [Project Name]`.
 
 ## Updating an Entry
 
-If a project's details have changed (new platform support, engine change, etc.), submit a PR with the update. Include a link to the relevant release or commit in your PR description.
+If a project's details have changed, update the relevant row in the directory and any affected platform lists or counts. Include a link to the relevant release, commit, or documentation change in your PR description when possible.
 
 ## Removing an Entry
 
-If a project no longer meets the criteria (archived, deleted, no commits in 12+ months), open an issue or PR to remove it.
+If a project no longer fits the scope, is no longer open source, has been archived beyond practical use, or the repository has disappeared, open an issue or PR to remove it.
 
-## Style Guide
+## Writing Style
 
-- **Be concise.** One sentence is ideal. Two if the tool has important caveats.
-- **Be objective.** Describe what the tool does, not how good it is.
-- **No superlatives.** Avoid "best", "fastest", "most powerful", and similar.
-- **Sentence case** for descriptions (capitalize the first word only).
+- **Be concise.** One sentence is ideal. Use a second clause only when a caveat matters for selection.
+- **Be objective.** Describe what the tool does and where it fits.
+- **No hype.** Avoid words like "best", "ultimate", "revolutionary", or similar marketing language.
+- **Sentence case.** Use normal sentence casing for summaries.
 - **End with a period.**
+- **Link to the source repository.** Prefer the main repo over landing pages, app stores, or product sites.
+
+## Notes
+
+- Open-source repositories that also sell paid binaries or hosted features can still be listed.
+- If a project supports `Web` in addition to desktop or mobile platforms, include `Web` in the directory row. The top-level snapshot currently tracks only Linux, macOS, Windows, Android, and iOS.
