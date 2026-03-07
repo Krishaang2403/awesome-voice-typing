@@ -18,15 +18,15 @@ These tools let you speak and have text appear wherever you're typing. Some run 
 
 ## By Platform
 
-**Linux** — Buzz, Elograf, Epicenter Whispering, Handy, HNS, hyprwhspr, nerd-dictation, OpenWhispr, Speak to AI, Vocalinux, Voquill, VOXD, whisper_dictation, whisper-writer
+**Linux**: Buzz, Elograf, Epicenter Whispering, Handy, HNS, hyprwhspr, nerd-dictation, OpenWhispr, Speak to AI, Vocalinux, Voquill, VOXD, whisper_dictation, whisper-writer
 
-**macOS** — Amical, Buzz, Epicenter Whispering, FluidVoice, Handy, HNS, OpenSuperWhisper, OpenWhispr, Pindrop, Tambourine Voice, TypeWhisper, VoiceInk, VoiceTypr, Voquill, whisper-writer
+**macOS**: Amical, Buzz, Epicenter Whispering, FluidVoice, Handy, HNS, OpenSuperWhisper, OpenWhispr, Pindrop, Tambourine Voice, TypeWhisper, VoiceInk, VoiceTypr, Voquill, whisper-writer
 
-**Windows** — Amical, Buzz, Chirp, Epicenter Whispering, Handy, HNS, OmniDictate, OpenWhispr, Tambourine Voice, VoiceTypr, Voquill, whisper-writer
+**Windows**: Amical, Buzz, Chirp, Epicenter Whispering, Handy, HNS, OmniDictate, OpenWhispr, Tambourine Voice, VoiceTypr, Voquill, whisper-writer
 
-**Android** — Offline Voice Input, Whisper IME
+**Android**: Offline Voice Input, Whisper IME
 
-**iOS** — WhisperBoard
+**iOS**: WhisperBoard
 
 Most tools on this list support offline speech recognition — see the Transcription column below for details.
 
