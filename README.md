@@ -15,6 +15,7 @@ These tools let you speak and have text appear wherever you're typing. Some run 
 - [Scope](#scope)
 - [Platform Snapshot](#platform-snapshot)
 - [Directory](#directory)
+- [Related Projects](#related-projects)
 - [Inclusion Notes](#inclusion-notes)
 - [Contributing](#contributing)
 - [License](#license)
@@ -81,6 +82,19 @@ Most tools on this list support offline speech recognition. See `Mode` and `Engi
 | [Whisper IME](https://github.com/woheller69/whisperIME) | Android | Local | Whisper.cpp | Android keyboard and standalone app powered by Whisper, fully offline, and available on F-Droid. |
 | [whisper-writer](https://github.com/savbell/whisper-writer) | Linux, macOS, Windows | Hybrid | Faster Whisper, OpenAI API | Hotkey-driven dictation that auto-types into the active window with several recording modes. |
 | [whisper_dictation](https://github.com/themanyone/whisper_dictation) | Linux | Local | Whisper.cpp | Feature-rich Linux voice keyboard with dictation, voice commands, and webcam integration. |
+
+## Related Projects
+
+Speech recognition engines, models, and APIs that power the tools listed above.
+
+- [Whisper](https://huggingface.co/collections/openai/whisper-release-6501bba2cf999715571c6b98) - OpenAI's ASR model weights; tiny through large, English-only and multilingual.
+- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Pure C/C++ Whisper inference with zero dependencies; runs on Apple Silicon, CUDA, Vulkan, and WASM.
+- [Faster Whisper](https://github.com/SYSTRAN/faster-whisper) - CTranslate2-based Whisper reimplementation; up to 4x faster with lower memory.
+- [WhisperKit](https://github.com/argmaxinc/WhisperKit) - Swift package for on-device Whisper on Apple Silicon with streaming support.
+- [Parakeet](https://huggingface.co/collections/nvidia/parakeet-702d39a47302ef820e49839d) - NVIDIA's high-accuracy English ASR models in CTC, RNN-T, and TDT architectures.
+- [Vosk](https://github.com/alphacep/vosk-api) - Lightweight offline ASR with compact models, 20+ languages, and multi-language bindings.
+- [Apple Speech](https://developer.apple.com/documentation/speech) - Apple's on-device speech recognition framework for iOS, macOS, and watchOS.
+- [Awesome Whisper](https://github.com/sindresorhus/awesome-whisper) - Curated list of Whisper tools and resources.
 
 ## Inclusion Notes
 
