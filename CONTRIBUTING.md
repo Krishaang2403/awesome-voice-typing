@@ -17,7 +17,7 @@ To be listed, a project must meet **all** of the following:
 2. Add your entry to `README.md` in **alphabetical order** (case-insensitive) using this format:
 
    ```
-   | [Name](https://github.com/user/repo) | ![](https://img.shields.io/github/stars/user/repo?style=flat-square) | Description | Platforms | Local/Hybrid | Engine | Languages | Notes |
+   | [Name](https://github.com/user/repo) | ![](https://img.shields.io/github/stars/user/repo) | Description | Platforms | Local/Hybrid | Engine | Languages | Notes |
    ```
 
    **Columns:**
@@ -25,7 +25,7 @@ To be listed, a project must meet **all** of the following:
    | Column | Format | Example |
    |--------|--------|---------|
    | Name | Linked project name, title case | `[VoiceInk](https://github.com/Beingpax/VoiceInk)` |
-   | Stars | Shields.io badge with `?style=flat-square` | `![](https://img.shields.io/github/stars/user/repo?style=flat-square)` |
+   | Stars | Shields.io badge with `` | `![](https://img.shields.io/github/stars/user/repo)` |
    | Description | One sentence, no trailing period | `Native macOS dictation with per-app Power Mode settings` |
    | Platforms | Comma-separated | `Linux, macOS, Windows` |
    | Transcription | `Local` or `Hybrid` | `Local` |
