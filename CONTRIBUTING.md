@@ -40,8 +40,7 @@ To be listed, a project should meet all of the following:
    | Summary | One concise sentence ending with a period | `Native macOS dictation with per-app tuning and custom dictionary support.` |
 
 4. Add the project name to each relevant platform line in the `Browse by platform` block, also in alphabetical order.
-5. Update the `Platform Snapshot` counts if the change affects Linux, macOS, Windows, Android, or iOS totals.
-6. Open a pull request titled `Add [Project Name]`.
+5. Open a pull request titled `Add [Project Name]`.
 
 ## Updating an Entry
 
@@ -63,4 +62,4 @@ If a project no longer fits the scope, is no longer open source, has been archiv
 ## Notes
 
 - Open-source repositories that also sell paid binaries or hosted features can still be listed.
-- If a project supports `Web` in addition to desktop or mobile platforms, include `Web` in the directory row. The top-level snapshot currently tracks only Linux, macOS, Windows, Android, and iOS.
+- If a project supports `Web` in addition to desktop or mobile platforms, include `Web` in the directory row.
