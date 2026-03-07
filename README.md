@@ -36,10 +36,10 @@ This list does not try to cover:
 <details>
 <summary>Browse by platform</summary>
 
-- Linux: Buzz, Elograf, Epicenter Whispering, Handy, HNS, hyprwhspr, nerd-dictation, OpenWhispr, Speak to AI, Vocalinux, Voquill, VOXD, whisper_dictation, whisper-writer
-- macOS: Amical, Buzz, Epicenter Whispering, FluidVoice, Handy, HNS, OpenSuperWhisper, OpenWhispr, Pindrop, Tambourine Voice, TypeWhisper, VoiceInk, VoiceTypr, Voquill, whisper-writer
-- Windows: Amical, Buzz, Chirp, Epicenter Whispering, Handy, HNS, OmniDictate, OpenWhispr, Tambourine Voice, VoiceTypr, Voquill, whisper-writer
-- Android: Offline Voice Input, Whisper IME
+- Linux: Buzz, Elograf, Epicenter Whispering, Handy, HNS, hyprwhspr, nerd-dictation, OpenWhispr, Speak to AI, Vibe, Vocalinux, Voquill, VOXD, whisper_dictation, whisper-writer
+- macOS: Amical, Buzz, Epicenter Whispering, FluidVoice, Handy, HNS, OpenSuperWhisper, OpenWhispr, Pindrop, Tambourine Voice, TypeWhisper, Vibe, VoiceInk, VoiceTypr, Voquill, whisper-writer
+- Windows: Amical, Buzz, Chirp, Epicenter Whispering, Handy, HNS, OmniDictate, OpenWhispr, Tambourine Voice, Vibe, VoiceTypr, Voquill, whisper-writer
+- Android: Offline Voice Input, Transcribro, Whisper IME
 - iOS: WhisperBoard
 
 </details>
@@ -69,7 +69,9 @@ Most tools on this list support offline speech recognition. See `Mode` and `Engi
 | [Pindrop](https://github.com/watzon/pindrop) | macOS | Local | WhisperKit | Offline menu bar dictation app with optional AI-based transcript cleanup. |
 | [Speak to AI](https://github.com/AshBuk/speak-to-ai) | Linux | Local | Whisper.cpp | Minimal Linux dictation tool that inserts text into the active window and can also run from the CLI. |
 | [Tambourine Voice](https://github.com/kstonekuan/tambourine-voice) | macOS, Windows | Hybrid | Multiple (configurable) | Voice interface for any app with configurable STT and LLM providers. |
+| [Transcribro](https://github.com/soupslurpr/Transcribro) | Android | Local | Whisper.cpp | Private and on-device speech recognition keyboard and service for Android. |
 | [TypeWhisper](https://github.com/TypeWhisper/typewhisper-mac) | macOS | Hybrid | Whisper (local and/or cloud) | Voice typing app with both local and cloud engine options. |
+| [Vibe](https://github.com/thewh1teagle/vibe) | Linux, macOS, Windows | Local | Whisper.cpp | Desktop app to transcribe audio and video offline using OpenAI Whisper. |
 | [Vocalinux](https://github.com/jatinkrmalik/vocalinux) | Linux | Local | Whisper.cpp, Whisper, Vosk | Linux dictation with distro-specific setup guides and Vulkan acceleration notes. |
 | [VoiceInk](https://github.com/Beingpax/VoiceInk) | macOS | Hybrid | WhisperKit, BYOK | Native macOS dictation with per-app tuning, a custom dictionary, and optional commercial distribution. |
 | [VoiceTypr](https://github.com/moinulmoin/voicetypr) | macOS, Windows | Local | Whisper-based | Voice-to-text dictation built with Tauri; the repository is open source, but binaries require a one-time license purchase. |
